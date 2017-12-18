@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+/* 以下实际使用若已初始化可删除 .nav height父级需逐级设置为100%*/
+
+body,
+html {
+	height: 100%;
+	background: #FFF;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+body,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 14px "微软雅黑", "宋体", "Arial Narrow", HELVETICA;
+	-webkit-text-size-adjust: 100%;
+}
+
+li {
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/* 以上实际使用若已初始化可删除 */
+
+
+/*head start*/
+
+.navbar-default {
+	background-color: #438EB9;
+}
+
+.head-font-color {
+	color: white;
+	font-size: 20px;
+}
+
+.vitae-nav {
+	margin: 0 !important;
+	padding-right: 10px;
+}
+
+.vitae-nav li {
+	float: left;
+}
+
+.vitae-nav li a {
+	height: 100%;
+	min-width: 50px;
+}
+
+.vitae-nav>li.open a {
+	background-color: #4b4b4b!important;
+}
+
+.gray {
+	color: #777777;
+}
+
+
+/*head end*/
+
+
+/*left menu start*/
+#mini {
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+.menu-nav {
+	width: 220px;
+	height: 100%;
+	background-color: #263238;
+}
+.menu-nav a {
+	display: block;
+	padding-left: 20px;
+	overflow: hidden;
+	line-height: 46px;
+	max-height: 46px;
+	color: #ABB1B7;
+	transition: all .3s;
+}
+
+.menu-nav a span {
+	margin-left: 30px;
+}
+.menu-nav-item{
+	position: relative;
+	background: rgba(0,0,0.1);
+}
+/*隐藏ul*/
+.menu-nav-item ul{
+    display: none;
+	background: rgba(0,0,0.1);
+}
+/*显示ul*/
+.menu-nav .nav-show ul{
+	display: block;
+}
+.menu-nav-item>a:before{
+content:"";
+position: absolute;
+left: 0px;
+width: 2px;
+height: 45px;
+background:#34A0CE;
+opacity: 0;
+transition: all .3s;
+}
+.menu-nav .nav-icon{
+	font-size: 20px;
+	position: absolute;
+	margin-left: -1px;
+}
+/* 此处修改导航图标 可自定义iconfont 替换*/
+.icon_1::after{content: "\e62b";}
+.icon_2::after{content: "\e669";}
+.icon_3::after{content: "\e61d";}
+.nav-more{float: right;font-size: 12px;margin-right: 20px;transition: transform .3s;}
+/* 此处为导航右侧箭头 如果自定义iconfont 也需要替换*/
+.nav-more::after{content: "\e621";}
+/*3D转换*/
+.nav-show .nav-more{transform:rotate(90deg);}
+.nav-show,.menu-nav-item>a:hover{color: #FFF;background:rgba(0,0,0,.1);}
+.menu-nav-item li:hover a{color: #FFF;background: rgba(0,0,0,.1);}
+/*菜单缩略样式*/
+.menu-nav-mini.menu-nav{width: 60px;}
+.mebu-nav-mini .nav-more{margin-right: -20px;}
+.menu-nav-mini .menu-nav-item>a span{display: none;} 
+.menu-nav-mini .menu-nav-item ul{position: absolute;left: 60px;width:180px;top: 0;overflow: hidden;z-index: 99;background:#3C474C;}
+.menu-nav-mini .menu-nav-item:hover a{color:#FFF}
+.menu-nav-mini .menu-nav-item:hover ul{display: block;}
+.menu-nav-mini .menu-nav-item:hover{background:rgba(255,255,255,.1)}
+.menu-nav-mini .menu-nav-item:hover a:before{opacity: 1;}
+/*left menu end*/
+
+
+/*right content start*/
+
+/*right content end*/
+
+
+/*footer start*/
+
+
+/*footer end*/

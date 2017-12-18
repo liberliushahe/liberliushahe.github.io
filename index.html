@@ -1,279 +1,209 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
 	<head>
-		<title>Directive</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<title>个人简历</title>
+		<style>
+		.head-left-office {
+				font-size: 64px;
+			}
+			
+			.text-head-title {
+				font-size: 25px;
+				color: #89C3D1;
+			}
+			
+			@media only screen and (min-width:768) {
+				.head-left-office {
+					font-size: 24px;
+				}
+			}
+			
+			'@media (max-width: 480px){
+ .head-left-office {
+				font-size: 14px;
+			}
+		}
+		</style>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 	</head>
-	<body>
 
-		<!-- Header -->
-			<div id="header">
-				<span class="logo icon fa-paper-plane-o"></span>
-				<h1>Hi. This is Directive.</h1>
-				<p>A responsive HTML5 + CSS3 site template designed by <a href="#">HTML5 UP</a>
-				<br />
-				and released for free under the <a href="#/license">Creative Commons license</a>.</p>
-			</div>
-            <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
+	<body style="background-color: #EEF3FA;">
+		<div class=".container">
+			<!--
+          	描述：头部
+          -->
 
-		<!-- Main -->
-			<div id="main">
-			
-				<header class="major container small">
-					<h2>We conduct experiments that
-					<br />
-					may or may not seriously
-					<br />
-					break the universe</h2>
-					<!--
-					<p>Tellus erat mauris ipsum fermentum<br />
-					etiam vivamus nunc nibh morbi.</p>
-					-->
-				</header>
-				
-				<div class="box alt container">
-					<section class="feature left">
-						<a href="#" class="image icon fa-signal"><img src="images/pic01.jpg" alt="" /></a>
-						<div class="content">
-							<h3>The First Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-						</div>
-					</section>
-					<section class="feature right">
-						<a href="#" class="image icon fa-code"><img src="images/pic02.jpg" alt="" /></a>
-						<div class="content">
-							<h3>The Second Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-						</div>
-					</section>
-					<section class="feature left">
-						<a href="#" class="image icon fa-mobile"><img src="images/pic03.jpg" alt="" /></a>
-						<div class="content">
-							<h3>The Third Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-						</div>
-					</section>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8" style="background-color: #89C3D1;color:white;">
+
+					<div class="col-sm-5">
+						<h1 class="head-left-office">Office+</h1>
+						<p>求职意向：软件开发工程师</p>
+					</div>
+					<div class="col-sm-5">
+						<span>&nbsp;</span>
+						<span>&nbsp;</span>
+						<p>电话：18919966086</p>
+						<p>Email:XXXXXXX@XX.com</p>
+						<p>电话：18919966086sa</p>
+						<p>Email:XXXXXXX21212@XX.com</p>
+						<p>Email:XXXXXXX21212@XX.com</p>
+
+					</div>
+
+					<div class="col-sm-2">
+
+						<img src="img/lijuan.png" class="img-responsive" />
+					</div>
 				</div>
-				
+				<div class="col-sm-2"></div>
+			</div>
+
+			<!--
+          	描述：用户信息
+          -->
+
+			<!--
+          	作者：1540077031@qq.com
+          	时间：2017-10-14
+          	描述：求职意向开始
+          -->
+			<div class="row">
+				<div class="col-md-2"></div>
 				<!--
-				<div class="box container">
-					<header>
-						<h2>A lot of generic stuff</h2>
-					</header>
-					<section>
-						<header>
-							<h3>Paragraph</h3>
-							<p>This is the subtitle for this particular heading</p>
-						</header>
-						<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque 
-						habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi 
-						leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit 
-						amet risus elit.</p>
-					</section>
-					<section>
-						<header>
-							<h3>Blockquote</h3>
-						</header>
-						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-						tempus euismod. Vestibulum ante ipsum primis in faucibus.</blockquote>
-					</section>
-					<section>
-						<header>
-							<h3>Divider</h3>
-						</header>
-						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra 
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci 
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam 
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
-						posuere cubilia.</p>
-						<hr />
-						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra 
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci 
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam 
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
-						posuere cubilia.</p>
-					</section>
-					<section>
-						<header>
-							<h3>Unordered List</h3>
-						</header>
-						<ul class="default">
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						</ul>
-					</section>
-					<section>
-						<header>
-							<h3>Ordered List</h3>
-						</header>
-						<ol class="default">
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						</ol>
-					</section>
-					<section>
-						<header>
-							<h3>Table</h3>
-						</header>
-						<div class="table-wrapper">
-							<table class="default">
-								<thead>
-									<tr>
-										<th>ID</th>
-										<th>Name</th>
-										<th>Description</th>
-										<th>Price</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="3"></td>
-										<td>100.00</td>
-									</tr>
-								</tfoot>
-							</table>
-						</div>
-					</section>
-					<section>
-						<header>
-							<h3>Form</h3>
-						</header>
-						<form method="post" action="#">
-							<div class="row">
-								<div class="6u">
-									<label for="name">Name</label>
-									<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
-								</div>
-								<div class="6u">
-									<label for="email">Email</label>
-									<input class="text" type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<label for="subject">Subject</label>
-									<input class="text" type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<label for="subject">Message</label>
-									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<ul class="actions">
-										<li><input type="submit" value="Send" /></li>
-										<li><input type="reset" value="Reset" class="alt" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</section>
+            	作者：1540077031@qq.com
+            	时间：2017-10-28
+            	描述：左侧内容
+            -->
+				<div class="col-md-5" style="background-color: white;">
+					<span>&nbsp;</span>
+					<span>&nbsp;</span>
+					<span>&nbsp;</span>
+					<br />
+					<p class="text-left text-head-title"><img src="img/work.png" />工作经验</p>
+					<p><strong>2017-2018年实习软件开发</strong></p>
+					<ul style="line-height: 28px;">
+						<li>测试的地方地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方地方地方地方ID放到和ID郭德纲ID覅发送</li>
+					</ul>
+					<p><strong>2017-2018年实习软件开发</strong></p>
+					<ul style="line-height: 28px;">
+						<li>测试的地方地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方地方地方地方ID放到和ID郭德纲ID覅发送</li>
+					</ul>
+					<p><strong>2017-2018年实习软件开发</strong></p>
+					<ul style="line-height: 28px;">
+						<li>测试的地方地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方打机地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方打飞机地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方打飞机地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方打飞机地方地方地方ID放到和ID郭德纲ID覅发送</li>
+					</ul>
 				</div>
-				-->
-				
-				<footer class="major container small">
-					<h3>Get shady with science</h3>
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
-					<ul class="actions">
-						<li><a href="#" class="button">Join our crew</a></li>
+
+				<!--
+             	作者：1540077031@qq.com
+             	时间：2017-10-28
+             	描述：右侧内容
+             -->
+				<div class="col-md-3" style="border-left: solid #89C3D1;background-color: white;">
+					<br />
+					<p class="text-left text-head-title"><img src="img/educat.png" />教育背景</p>
+
+					<ul style="line-height: 28px;">
+						<li>测试的地方打飞机地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方打飞机地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方打飞机地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方打飞机地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方打飞机地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方打飞机地方地方地方ID放到和ID郭德纲ID覅发送</li>
+						<li>测试的地方打飞机地方地方地方ID放到和ID郭德纲ID覅发送</li>
 					</ul>
-				</footer>
-
-			</div>
-			
-		<!-- Footer -->
-			<div id="footer">
-				<div class="container small">
-
-					<header class="major last">
-						<h2>Questions or comments?</h2>
-					</header>
-
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor
-					orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
-
-					<form method="post" action="#">
-						<div class="row collapse-at-2">
-							<div class="6u">
-								<input type="text" name="name" placeholder="Name" />
-							</div>
-							<div class="6u">
-								<input type="email" name="email" placeholder="Email" />
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<textarea name="message" placeholder="Message" rows="6"></textarea>
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
-						</div>
-					</form>
-				
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+					<p class="text-left text-head-title"><img src="img/honour.png" />奖项荣誉</p>
+					<ul style="list-style-type:square;line-height: 28px;">
+						<li>测试发送大四的时代第四大声道是</li>
+						<li>测试发送大四的时代第四大声道是</li>
+						<li>测试发送大四的时代第四大声道是</li>
+						<li>测试发送大四的时代第四大声道是</li>
+						<li>测试发送大四的时代第四大声道是</li>
 					</ul>
-					
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="#">HTML5 UP</a> - More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></li>
-					</ul>
-			
+
 				</div>
+
+				<div class="col=md-2"></div>
 			</div>
 
+			<!--
+   	作者：1540077031@qq.com
+   	时间：2017-10-14
+   	描述：工作经历开始
+   -->
+
+			<!--
+       	作者：1540077031@qq.com
+       	时间：2017-10-14
+       	描述：自我评价开始
+       -->
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8" style="border-bottom: solid #89C3D1;background-color: white">
+					<p class="text-center " style="font-size: 29px; color: white;background-color: #89C3D1"><img src="img/self-assessment.png" />自我评价</p>
+
+					<ul style="line-height: 28px;">
+						<li>本人性格热情开朗，待人友好，为人诚实谦虚。工作勤奋，认真负责，能吃苦耐劳，</li>
+						<li>本人性格热情开朗，待人友好，为人诚实谦虚。工作勤奋，认真负责，能吃苦耐劳，</li>
+						<li>本人性格热情开朗，待人友好，为人诚实谦虚。工作勤奋，认真负责，能吃苦耐劳，</li>
+						<li>本人性格热情开朗，待人友好，为人诚实谦虚。工作勤奋，认真负责，能吃苦耐劳，</li>
+					</ul>
+				</div>
+
+				<div class="col-md-2"></div>
+			</div>
+			<!--
+       	作者：1540077031@qq.com
+       	时间：2017-10-14
+       	描述：自我评价结束
+       -->
+			<!--
+       	作者：1540077031@qq.com
+       	时间：2017-10-14
+       	描述：版权信息
+       -->
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8 text-center">
+					<span>Copyright © 个人简历2016-2017</span>
+				</div>
+				<div class="col-md-2"></div>
+
+			</div>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
 	</body>
+
 </html>
